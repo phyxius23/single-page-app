@@ -37,8 +37,13 @@
   }
 }
 
+header {
+  overflow: hidden;
+}
+
 .App img {
   max-width: 500px;
+  width: 100%;
   height: auto;
   margin-inline: auto;
   margin-top: 1rem;
@@ -53,5 +58,5 @@
   text-transform: uppercase;
   cursor: pointer;
   padding: 1rem 3rem;
-  margin-top: 1rem;
+  margin-block: 1rem;
 }
