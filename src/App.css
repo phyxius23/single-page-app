@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.App img {
+  max-width: 500px;
+  height: auto;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+
+.App button {
+  display: inline-block;
+  border: unset;
+  background-color: #39f;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+}
